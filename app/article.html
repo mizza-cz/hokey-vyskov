@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Hokej Vyškov</title>
+
+        <link
+            href="https://fonts.googleapis.com/icon?family=Material+Icons"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+
+        <script src="https://kit.fontawesome.com/f68c8e462e.js"></script>
+        <link rel="stylesheet" href="css/bootstrap.css" />
+        <link rel="stylesheet" type="text/css" href="css/slick.css" />
+        <link rel="stylesheet" href="css/menu_new.css" />
+        <link rel="stylesheet" href="css/style.min.css" />
+        <link rel="stylesheet" href="css/top-bar.css" />
+    </head>
+    <body>
+        <div id="top_bar_icons" class="hidden-sm hidden-xs">
+            <!-- Lista s tymy -->
+            <div
+                id="hockey_bar_esports"
+                data-idTeam="JFM"
+                data-googleSearch=""
+                data-competition="1liga"
+            ></div>
+        </div>
+
+        <header>
+            <div class="container-fluid">
+                <div class="row top-bar">
+                    <div class="logo-top">
+                        <a href="/"><img src="images/logo.png" /></a>
+                    </div>
+
+                    <div class="row game-top game-top-right">
+                        <div class="date">
+                            úterý&nbsp;
+                            <span class="date-bold">8.8.2023&nbsp;</span>
+                            &nbsp;
+                        </div>
+                        <div class="score-top">
+                            <img src="images/znaky/hav.png" />
+                            <span class="score">-:-</span>
+                            <img src="images/logo.png" />
+                        </div>
+                        <div class="onlajn-btn"></div>
+                    </div>
+                </div>
+            </div>
+            <div classs="navbar">
+                <div class="topnav" id="myTopnav">
+                    <div class="leftnav2">
+                        <div class="dropdown">
+                            <button class="dropbtn">
+                                Klub
+                                <i class="caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                                <a class="dropdown-item" href="#"
+                                    >Informace o klubu</a
+                                >
+                                <a class="dropdown-item" href="#"
+                                    >Informace o stadionu</a
+                                >
+                                <a class="dropdown-item" href="#">Historie</a>
+                                <a class="dropdown-item" href="#"
+                                    >Vedení klubu - A tým</a
+                                >
+                                <a class="dropdown-item" href="#"
+                                    >Vedení klubu - mládež</a
+                                >
+                                <a class="dropdown-item" href="#">Kontakty</a>
+                                <a class="dropdown-item" href="#"
+                                    >Logo ke stažení</a
+                                >
+                                <a class="dropdown-item" href="#">Press info</a>
+                            </div>
+                        </div>
+
+                        <div class="dropdown">
+                            <button class="dropbtn">
+                                Tým
+                                <i class="caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                                <a class="dropdown-item" href="#">Soupiska</a>
+                                <a class="dropdown-item" href="#"
+                                    >Realizační tým</a
+                                >
+                                <a class="dropdown-item" href="#">Statistiky</a>
+                                <a class="dropdown-item" href="#"
+                                    >Dotační program</a
+                                >
+                            </div>
+                        </div>
+
+                        <div class="dropdown">
+                            <button class="dropbtn">
+                                Vstupenky
+                                <i class="caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                                <a class="dropdown-item" href="#">Vstupenky</a>
+                                <a class="dropdown-item" href="#"
+                                    >Permanentky</a
+                                >
+                                <a class="dropdown-item" href="#"
+                                    >Dárkové poukazy</a
+                                >
+                                <a class="dropdown-item" href="#">VIP</a>
+                                <a class="dropdown-item" href="#">Skybox</a>
+                            </div>
+                        </div>
+
+                        <div class="dropdown">
+                            <button class="dropbtn">
+                                Fanzóna
+                                <i class="caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                                <a class="dropdown-item" href="#"
+                                    >FM žije hokejem</a
+                                >
+                                <a
+                                    class="dropdown-item"
+                                    href="#"
+                                    target="_blank"
+                                    >Fanklub</a
+                                >
+                                <a
+                                    class="dropdown-item"
+                                    href="#"
+                                    target="_blank"
+                                    >Fanshop</a
+                                >
+                                <a class="dropdown-item" href="#"
+                                    >Dárkové poukazy</a
+                                >
+                                <a class="dropdown-item" href="#"
+                                    >Podpisy hráčů</a
+                                >
+                                <a class="dropdown-item" href="#"
+                                    >Sociální sítě</a
+                                >
+                            </div>
+                        </div>
+
+                        <div class="dropdown">
+                            <button class="dropbtn">
+                                Zápasy
+                                <i class="caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                                <a class="dropdown-item" href="#"
+                                    >Chance liga</a
+                                >
+                                <a class="dropdown-item" href="#"
+                                    >Přípravné zápasy</a
+                                >
+                                <a class="dropdown-item" href="#">Tabulka</a>
+                                <a class="dropdown-item" href="#"
+                                    >Výsledkový servis</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="logo-top-PC">
+                        <a href="/"><img src="images/logo.png" /></a>
+                    </div>
+
+                    <div class="rightnav2">
+                        <div class="dropdown">
+                            <button class="dropbtn">
+                                Mládež
+                                <i class="caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                                <a class="dropdown-item" href="#"
+                                    >Realizační týmy</a
+                                >
+                                <a class="dropdown-item" href="mladez.asp"
+                                    >Rozcestník mládeže</a
+                                >
+                                <a class="dropdown-item" href="#"
+                                    >Články mládeže</a
+                                >
+                                <a class="dropdown-item" href="#">Nábor</a>
+                                <a
+                                    class="dropdown-item"
+                                    href="#"
+                                    target="_blank"
+                                    >Facebook mládeže</a
+                                >
+                                <a class="dropdown-item" href="#"
+                                    >Oddílové příspěvky</a
+                                >
+                                <a class="dropdown-item" href="#"
+                                    >Dotační programy</a
+                                >
+                                <a class="dropdown-item" href="#"
+                                    >Individuální cvičení</a
+                                >
+                            </div>
+                        </div>
+
+                        <div class="dropdown">
+                            <button class="dropbtn">
+                                Muži B
+                                <i class="caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                                <a class="dropdown-item" href="#">Soupiska</a>
+                                <a class="dropdown-item" href="#">Zápasy</a>
+                                <a class="dropdown-item" href="#">Příprava</a>
+                                <a
+                                    class="dropdown-item"
+                                    href="#"
+                                    target="_blank"
+                                    >Tabulka</a
+                                >
+                                <a
+                                    class="dropdown-item"
+                                    href="#"
+                                    target="_blank"
+                                    >Statistiky</a
+                                >
+                                <a
+                                    class="dropdown-item"
+                                    href="#"
+                                    target="_blank"
+                                    >Články muži B</a
+                                >
+                                <a class="dropdown-item" href="#"
+                                    >Realizační tým</a
+                                >
+                            </div>
+                        </div>
+
+                        <a href="#">Partneři</a>
+
+                        <div class="dropdown">
+                            <button class="dropbtn">
+                                Fotogalerie
+                                <i class="caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                                <a class="dropdown-item" href="#"
+                                    >Fotogalerie muži</a
+                                >
+                                <a class="dropdown-item" href="#"
+                                    >Fotogalerie mládež</a
+                                >
+                            </div>
+                        </div>
+
+                        <div class="dropdown">
+                            <button class="dropbtn">
+                                Archiv
+                                <i class="caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                                <a class="dropdown-item" href="#"
+                                    >Archiv článků</a
+                                >
+                                <a class="dropdown-item" href="#"
+                                    >Archiv aktualit</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+
+                    <a
+                        href="javascript:void(0);"
+                        class="icon"
+                        onclick="myFunction()"
+                        >MENU &#9776;</a
+                    >
+                </div>
+            </div>
+
+            <script>
+                function myFunction() {
+                    var x = document.getElementById("myTopnav");
+                    if (x.className === "topnav") {
+                        x.className += " responsive";
+                    } else {
+                        x.className = "topnav";
+                    }
+                }
+            </script>
+        </header>
+        <main class="main">
+            <div class="clanek">
+                <div
+                    class="article-img"
+                    style="
+                        background-image: url(https://hokej.hcf-m.cz//foto/hcfm-kadan-175824-15-210123.jpg);
+                    "
+                >
+                    <div class="shadoww"></div>
+                </div>
+                <div class="article-next">
+                    <div class="layout">
+                        <div class="row">
+                            <div class="col-lg-2 side-left">
+                                <div class="related">Souvisejicí</div>
+                                <div class="header-left">
+                                    <a href="#"
+                                        >Zveme na Den dětí s rysy v OC Frýda!</a
+                                    >
+                                </div>
+                            </div>
+                            <div class="col-lg-8 col-md-12 main-text">
+                                <div class="header">
+                                    Chance liga je rozlosována, na úvod
+                                    přivítáme doma Sokolov
+                                </div>
+                                <div class="row article-details">
+                                    <div class="article-type">
+                                        <div class="row btn">
+                                            <span>Novinky</span>
+                                        </div>
+                                    </div>
+                                    <div class="article-date">31. května</div>
+                                </div>
+                                <div class="perex">
+                                    Frýdecko-místečtí hokejisté již znají
+                                    předběžný herní plán základní části nového
+                                    soutěžního ročníku. Na úvod Chance ligy
+                                    vyzvou rysi v domácím prostředí tým ze
+                                    západních Čech.
+                                </div>
+                                <div class="text">
+                                    <br />
+                                    <p style="text-align: justify">
+                                        Hokejisté Frýdku-Místku již znají
+                                        podrobný plán Chance ligy pro
+                                        nadcházející sezonu 2023/2024. Základní
+                                        část bude čítat stejně jako v uplynulé
+                                        sezoně 52 hracích kol, ve kterých se
+                                        týmy se stejnými soupeři potkají dvakrát
+                                        doma a dvakrát venku. Celý koloběh
+                                        započne úvodním kolem ve středu 13. září
+                                        2023, poslední kolo základní části je
+                                        pak na pořadu v pátek 1. března příštího
+                                        roku.
+                                    </p>
+                                    <p style="text-align: justify">
+                                        Do předkola play off se podívají celky,
+                                        které skončí po odehrání všech
+                                        dvaapadesáti kol na konečném 7. až 10.
+                                        místě (10-7, 9-8). Předkolo se bude hrát
+                                        ve dnech od 4. do 7. března 2024. Start
+                                        play off je naplánován na sobotu 9.
+                                        března 2024, vítěze nového ročníku
+                                        Chance ligy bychom měli znát nejpozději
+                                        v sobotu 13. dubna 2024, kdy je na
+                                        pořadu případné rozhodující sedmé
+                                        střetnutí finále.
+                                    </p>
+                                    <p style="text-align: justify">
+                                        A s kým tedy rysi nový soutěžní ročník
+                                        zahájí? Vše začneme v domácí hale
+                                        Polárka, a to ve středu 13. září od
+                                        17.00 hodin, kdy budeme hostit tým ze
+                                        Sokolova. Následně se v Pelhřimově
+                                        střetneme s Jihlavou a ve třetím kole
+                                        nás opět doma bude čekat béčko
+                                        extraligových Pardubic. Věříme, že první
+                                        výjezd si naši fanoušci připraví na
+                                        sobotu 23. září, to nás totiž čeká duel
+                                        na zlínském stadionu. První domácí derby
+                                        s Porubou je pak na pořadu ve středu 29.
+                                        listopadu od 17.00 hodin, a to v rámci
+                                        26. hracího kola.
+                                    </p>
+                                    <p style="text-align: justify">
+                                        Kompletní rozlosování, které se
+                                        samozřejmě může ještě upravovat (jak
+                                        hrací časy, tak i dny), najdete pak
+                                        <a
+                                            href="../zapasy.asp"
+                                            target="_blank"
+                                            rel="noopener"
+                                            ><strong>ZDE</strong></a
+                                        >.
+                                    </p>
+                                    <p style="text-align: justify">
+                                        <img src="images/123.jpeg" alt="" />
+                                    </p>
+                                    <h3>
+                                        <strong
+                                            ><br />Účastníci Chance ligy pro
+                                            sezonu 2023/2024</strong
+                                        >
+                                    </h3>
+                                    <p style="text-align: justify">
+                                        PSG Berani Zlín, HC Dukla Jihlava, VHK
+                                        ROBE Vsetín, HC Baník Sokolov, LHK
+                                        Jestřábi Prostějov, HC Stadion
+                                        Litoměřice, SK Horácká Slavia Třebíč, HC
+                                        ZUBR Přerov, HC Slavia Praha, SC Kolín,
+                                        HC Frýdek-Místek, HC Dynamo Pardubice B,
+                                        HC RT TORAX Poruba 2011, HC LERAM Orli
+                                        Znojmo.
+                                    </p>
+                                    <p style="text-align: justify"></p>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 side-right">
+                                <div class="related">Další článek</div>
+                                <div class="header-right">
+                                    <a href="#"
+                                        >Čtvrťáci si zahráli fotbálek v
+                                        Kopřivnici</a
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <footer>
+                <div class="bottom foot">
+                    <div class="layout">
+                        <div class="row credit">
+                            <div class="row col-8 copyright">
+                                <div
+                                    class="col-lg-8 col-md-8 col-sm-6 col-12 cop-text"
+                                >
+                                    © 2015 - 2023 &nbsp; Hokej Vyškov & &nbsp;<a
+                                        href="http://esportsmedia.cz/"
+                                        >eSports.cz, s.r.o.</a
+                                    >
+                                </div>
+                                <div
+                                    class="col-lg-4 col-md-4 col-sm-6 col-12 rss"
+                                >
+                                    Cookie | <a href="rss.asp">RSS</a>
+                                </div>
+                            </div>
+                            <div class="col-4 design">
+                                Webdesigned by David Vošický
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </main>
+
+        <link
+            rel="stylesheet"
+            href="https://consent.esports.cz/theme.asp?v=2&accent=D12A3B"
+        />
+        <script src="https://consent.esports.cz/config.asp?v=2&c=analytics,social"></script>
+        <script src="https://consent.esports.cz/main.js?v=2"></script>
+        <script
+            type="text/plain"
+            data-cookiecategory="social"
+            src="https://consent.esports.cz/social-media2.js?v=2"
+        ></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script
+            type="text/javascript"
+            src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+        ></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/slick.min.js"></script>
+        <script type="text/javascript">
+            $(document).on("ready", function () {
+                $(".topstories").slick({
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    arrows: false,
+                    fade: true,
+                    asNavFor: ".topstories-nav",
+                    prevArrow: '<div class="arrow-left"></div>',
+                    nextArrow: '<div class="arrow-right"></div>',
+                    autoplay: true,
+                    autoplaySpeed: 4000,
+                });
+
+                $(".topstories-nav").slick({
+                    slidesToShow: 4,
+                    slidesToScroll: 1,
+                    asNavFor: ".topstories",
+                    focusOnSelect: true,
+                    arrows: false,
+                    variableWidth: false,
+                    responsive: [
+                        {
+                            breakpoint: 600,
+                            settings: {
+                                slidesToShow: 2,
+                                slidesToScroll: 2,
+                                variableWidth: false,
+                            },
+                        },
+                    ],
+                });
+
+                $(".partner-rotation").slick({
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    arrows: false,
+                    autoplay: true,
+                    autoplaySpeed: 3000,
+                });
+
+                // endregion
+
+                // html js classes
+                $("html").removeClass("no-js").addClass("js");
+            });
+
+            $(".partnersHP").slick({
+                infinitive: true,
+                autoplay: true,
+                autoplaySpeed: 1600,
+                arrows: false,
+                slidesToShow: 7,
+                slidesToScroll: 1,
+                lazyLoad: "ondemand",
+                responsive: [
+                    {
+                        breakpoint: 768,
+                        settings: { slidesToShow: 2, slidesToScroll: 1 },
+                    },
+                ],
+            });
+        </script>
+        <div id="fb-root"></div>
+        <script type="text/plain" data-cookiecategory="social">
+            (function(d, s, id) {
+                        var js, fjs = d.getElementsByTagName(s)[0];
+                        if (d.getElementById(id)) return;
+                        js = d.createElement(s); js.id = id;
+                        js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
+                        fjs.parentNode.insertBefore(js, fjs);
+                      }(document, 'script', 'facebook-jssdk'));
+        </script>
+
+        <div id="fb-root"></div>
+        <script
+            type="text/plain"
+            data-cookiecategory="social"
+            async
+            defer
+            crossorigin="anonymous"
+            src="https://connect.facebook.net/cs_CZ/sdk.js#xfbml=1&version=v4.0"
+        ></script>
+
+        <script src="https://apis.google.com/js/platform.js" async defer>
+            {lang: 'cs'}
+        </script>
+
+        <script type="text/plain" data-cookiecategory="social">
+            window.fbAsyncInit = function() {
+              FB.init({
+                appId      : '1501967823426253',
+                xfbml      : true,
+                version    : 'v2.1'
+              });
+            };
+
+            (function(d, s, id){
+               var js, fjs = d.getElementsByTagName(s)[0];
+               if (d.getElementById(id)) {return;}
+               js = d.createElement(s); js.id = id;
+               js.src = "//connect.facebook.net/cs_CZ/sdk.js";
+               fjs.parentNode.insertBefore(js, fjs);
+             }(document, 'script', 'facebook-jssdk'));
+        </script>
+
+        <script type="text/plain" data-cookiecategory="analytics">
+            var div = document.createElement('div'); div.innerHTML = '<img src="https://toplist.cz/dot.asp?id=1702537&http='+escape(document.referrer)+'&t='+escape(document.title)+'" width="1" height="1" style="display:none;" border=0 alt="TOPlist" />'; document.body.appendChild(div);
+        </script>
+
+        <script type="text/plain" data-cookiecategory="social">
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-65901072-2', 'auto');
+            ga('send', 'pageview');
+        </script>
+        <script
+            type="text/javascript"
+            src="https://vesna.esports.cz/weby_data/top_bar/top_bar_elh.js"
+        ></script>
+    </body>
+</html>

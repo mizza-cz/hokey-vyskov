@@ -1,0 +1,17 @@
+.bottom-banners {
+  margin: 32px auto;
+  background-color: #2a2a29;
+}
+
+.bottom-banners a {
+  width: 100%;
+  height: auto;
+  display: block;
+  img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: contain;
+    margin: 0 auto;
+  }
+}
