@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Hokej Vyškov</title>
+
+        <link
+            href="https://fonts.googleapis.com/icon?family=Material+Icons"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+
+        <script src="https://kit.fontawesome.com/f68c8e462e.js"></script>
+        <link rel="stylesheet" href="css/bootstrap.css" />
+        <link rel="stylesheet" type="text/css" href="css/slick.css" />
+        <link rel="stylesheet" href="css/menu_new.css" />
+        <link rel="stylesheet" href="css/style.min.css" />
+        <link rel="stylesheet" href="css/top-bar.css" />
+    </head>
+    <body>
+        <div id="top_bar_icons" class="hidden-sm hidden-xs">
+            <!-- Lista s tymy -->
+            <div
+                id="hockey_bar_esports"
+                data-idTeam="JFM"
+                data-googleSearch=""
+                data-competition="1liga"
+            ></div>
+        </div>
+
+        <header>
+            <div class="container-fluid">
+                <div class="row top-bar">
+                    <div class="logo-top">
+                        <a href="/"><img src="images/logo.png" /></a>
+                    </div>
+
+                    <div class="row game-top game-top-right">
+                        <div class="date">
+                            úterý&nbsp;
+                            <span class="date-bold">8.8.2023&nbsp;</span>
+                            &nbsp;
+                        </div>
+                        <div class="score-top">
+                            <img src="images/znaky/hav.png" />
+                            <span class="score">-:-</span>
+                            <img src="images/logo.png" />
+                        </div>
+                        <div class="onlajn-btn"></div>
+                    </div>
+                </div>
+            </div>
+            <div classs="navbar">
+                <div class="topnav" id="myTopnav">
+                    <div class="leftnav2">
+                        <div class="dropdown">
+                            <button class="dropbtn">
+                                Klub
+                                <i class="caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                                <a class="dropdown-item" href="#"
+                                    >Informace o klubu</a
+                                >
+                                <a class="dropdown-item" href="#"
+                                    >Informace o stadionu</a
+                                >
+                                <a class="dropdown-item" href="#">Historie</a>
+                                <a class="dropdown-item" href="#"
+                                    >Vedení klubu - A tým</a
+                                >
+                                <a class="dropdown-item" href="#"
+                                    >Vedení klubu - mládež</a
+                                >
+                                <a class="dropdown-item" href="#">Kontakty</a>
+                                <a class="dropdown-item" href="#"
+                                    >Logo ke stažení</a
+                                >
+                                <a class="dropdown-item" href="#">Press info</a>
+                            </div>
+                        </div>
+
+                        <div class="dropdown">
+                            <button class="dropbtn">
+                                Tým
+                                <i class="caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                                <a class="dropdown-item" href="#">Soupiska</a>
+                                <a class="dropdown-item" href="#"
+                                    >Realizační tým</a
+                                >
+                                <a class="dropdown-item" href="#">Statistiky</a>
+                                <a class="dropdown-item" href="#"
+                                    >Dotační program</a
+                                >
+                            </div>
+                        </div>
+
+                        <div class="dropdown">
+                            <button class="dropbtn">
+                                Vstupenky
+                                <i class="caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                                <a class="dropdown-item" href="#">Vstupenky</a>
+                                <a class="dropdown-item" href="#"
+                                    >Permanentky</a
+                                >
+                                <a class="dropdown-item" href="#"
+                                    >Dárkové poukazy</a
+                                >
+                                <a class="dropdown-item" href="#">VIP</a>
+                                <a class="dropdown-item" href="#">Skybox</a>
+                            </div>
+                        </div>
+
+                        <div class="dropdown">
+                            <button class="dropbtn">
+                                Fanzóna
+                                <i class="caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                                <a class="dropdown-item" href="#"
+                                    >FM žije hokejem</a
+                                >
+                                <a
+                                    class="dropdown-item"
+                                    href="#"
+                                    target="_blank"
+                                    >Fanklub</a
+                                >
+                                <a
+                                    class="dropdown-item"
+                                    href="#"
+                                    target="_blank"
+                                    >Fanshop</a
+                                >
+                                <a class="dropdown-item" href="#"
+                                    >Dárkové poukazy</a
+                                >
+                                <a class="dropdown-item" href="#"
+                                    >Podpisy hráčů</a
+                                >
+                                <a class="dropdown-item" href="#"
+                                    >Sociální sítě</a
+                                >
+                            </div>
+                        </div>
+
+                        <div class="dropdown">
+                            <button class="dropbtn">
+                                Zápasy
+                                <i class="caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                                <a class="dropdown-item" href="#"
+                                    >Chance liga</a
+                                >
+                                <a class="dropdown-item" href="#"
+                                    >Přípravné zápasy</a
+                                >
+                                <a class="dropdown-item" href="#">Tabulka</a>
+                                <a class="dropdown-item" href="#"
+                                    >Výsledkový servis</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="logo-top-PC">
+                        <a href="/"><img src="images/logo.png" /></a>
+                    </div>
+
+                    <div class="rightnav2">
+                        <div class="dropdown">
+                            <button class="dropbtn">
+                                Mládež
+                                <i class="caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                                <a class="dropdown-item" href="#"
+                                    >Realizační týmy</a
+                                >
+                                <a class="dropdown-item" href="mladez.asp"
+                                    >Rozcestník mládeže</a
+                                >
+                                <a class="dropdown-item" href="#"
+                                    >Články mládeže</a
+                                >
+                                <a class="dropdown-item" href="#">Nábor</a>
+                                <a
+                                    class="dropdown-item"
+                                    href="#"
+                                    target="_blank"
+                                    >Facebook mládeže</a
+                                >
+                                <a class="dropdown-item" href="#"
+                                    >Oddílové příspěvky</a
+                                >
+                                <a class="dropdown-item" href="#"
+                                    >Dotační programy</a
+                                >
+                                <a class="dropdown-item" href="#"
+                                    >Individuální cvičení</a
+                                >
+                            </div>
+                        </div>
+
+                        <div class="dropdown">
+                            <button class="dropbtn">
+                                Muži B
+                                <i class="caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                                <a class="dropdown-item" href="#">Soupiska</a>
+                                <a class="dropdown-item" href="#">Zápasy</a>
+                                <a class="dropdown-item" href="#">Příprava</a>
+                                <a
+                                    class="dropdown-item"
+                                    href="#"
+                                    target="_blank"
+                                    >Tabulka</a
+                                >
+                                <a
+                                    class="dropdown-item"
+                                    href="#"
+                                    target="_blank"
+                                    >Statistiky</a
+                                >
+                                <a
+                                    class="dropdown-item"
+                                    href="#"
+                                    target="_blank"
+                                    >Články muži B</a
+                                >
+                                <a class="dropdown-item" href="#"
+                                    >Realizační tým</a
+                                >
+                            </div>
+                        </div>
+
+                        <a href="#">Partneři</a>
+
+                        <div class="dropdown">
+                            <button class="dropbtn">
+                                Fotogalerie
+                                <i class="caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                                <a class="dropdown-item" href="#"
+                                    >Fotogalerie muži</a
+                                >
+                                <a class="dropdown-item" href="#"
+                                    >Fotogalerie mládež</a
+                                >
+                            </div>
+                        </div>
+
+                        <div class="dropdown">
+                            <button class="dropbtn">
+                                Archiv
+                                <i class="caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                                <a class="dropdown-item" href="#"
+                                    >Archiv článků</a
+                                >
+                                <a class="dropdown-item" href="#"
+                                    >Archiv aktualit</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+
+                    <a
+                        href="javascript:void(0);"
+                        class="icon"
+                        onclick="myFunction()"
+                        >MENU &#9776;</a
+                    >
+                </div>
+            </div>
+
+            <script>
+                function myFunction() {
+                    var x = document.getElementById("myTopnav");
+                    if (x.className === "topnav") {
+                        x.className += " responsive";
+                    } else {
+                        x.className = "topnav";
+                    }
+                }
+            </script>
+        </header>
+        <main class="main">
+            <section class="static-page">
+                <div class="tabulka-main zobraz">
+                    <div class="layout layout-soupiska">
+                        <div class="soupiska">
+                            <div class="row full-box">
+                                <div
+                                    class="col-lg-3 col-md-3 col-sm-4 col-12 left-col"
+                                >
+                                    <div class="box submenu">
+                                        <div class="header">Klub</div>
+                                        <div class="header-small">
+                                            Informace o klubu
+                                        </div>
+                                        <ul>
+                                            <a
+                                                class="dropdown-item"
+                                                href="zobraz.asp?t=informace-o-klubu"
+                                                style="display: none"
+                                                >Informace o klubu</a
+                                            >
+                                            <a
+                                                class="dropdown-item"
+                                                href="zobraz.asp?t=informace-o-stadionu"
+                                                >Informace o stadionu</a
+                                            >
+                                            <a
+                                                class="dropdown-item"
+                                                href="zobraz.asp?t=vedeni-klubu"
+                                                >Vedení klubu - A tým</a
+                                            >
+                                            <a
+                                                class="dropdown-item"
+                                                href="zobraz.asp?t=vedeni-klubu-mladez"
+                                                >Vedení klubu - mládež</a
+                                            >
+                                            <a
+                                                class="dropdown-item"
+                                                href="zobraz.asp?t=kontakty"
+                                                >Kontakty</a
+                                            >
+                                            <a
+                                                class="dropdown-item"
+                                                href="zobraz.asp?t=logo-ke-stazeni"
+                                                >Logo ke stažení</a
+                                            >
+                                            <a
+                                                class="dropdown-item"
+                                                href="press-akreditace.asp"
+                                                >Press info</a
+                                            >
+                                            <a
+                                                class="dropdown-item"
+                                                href="zobraz.asp?t=vstupenky"
+                                                >Vstupenky</a
+                                            >
+                                            <a
+                                                class="dropdown-item"
+                                                href="zobraz.asp?t=permanentky"
+                                                >Permanentky</a
+                                            >
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div
+                                    class="col-lg-9 col-md-9 col-sm-8 col-12 main-text"
+                                >
+                                    <div class="row">
+                                        <div
+                                            class="col-lg-12 col-md-12 col-sm-12 header header-texty"
+                                        >
+                                            Informace o klubu
+                                        </div>
+                                        <div
+                                            class="perex"
+                                            style="
+                                                background-image: url('images/static.jpeg');
+                                            "
+                                        >
+                                            <p>
+                                                Hokej Vyškov je hokejový klub
+                                                působící ve Vyškově od sezóny
+                                                2022-2023, navazuje na bohatou
+                                                historii vyškovského hokeje. Je
+                                                účastníkem 2.ligy ČR po
+                                                přenechání licence od klubu SHK
+                                                Drtiči Hodonín.
+                                            </p>
+                                        </div>
+                                        <div class="about-section">
+                                            <ul>
+                                                <li>
+                                                    <h3>Název klubu:</h3>
+                                                </li>
+                                                <li>Hokej Vyškov</li>
+                                            </ul>
+                                            <ul>
+                                                <li>
+                                                    <h3>Sídlo klubu:</h3>
+                                                </li>
+                                                <li>Mlýnská 12,</li>
+                                                <li>Dědice, 682 01</li>
+                                                <li>Vyškov</li>
+                                            </ul>
+                                            <ul>
+                                                <li>
+                                                    <h3>E-mail:</h3>
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        href="mailto:info@hokejvyskov.cz"
+                                                    >
+                                                        info@hokejvyskov.cz
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <ul>
+                                                <li>
+                                                    <h3>Oficiální web:</h3>
+                                                </li>
+                                                <li>
+                                                    <a href="/"
+                                                        >www.hokejvyskov.cz</a
+                                                    >
+                                                </li>
+                                            </ul>
+                                            <ul>
+                                                <li>
+                                                    <h3>Fakturační údaje:</h3>
+                                                </li>
+                                                <li>Ševci Zlín, z.s.</li>
+                                                <li>Kalinová 554</li>
+                                                <li>760 01 Zlín</li>
+                                                <li>IČO: 035 01 965</li>
+                                                <li>DIČ: CZ 035 01 965</li>
+                                            </ul>
+
+                                            <ul>
+                                                <li>
+                                                    <h3>Bankovní spojení:</h3>
+                                                </li>
+                                                <li>1020304057/0100</li>
+                                            </ul>
+                                            <h2>VEDENÍ KLUBU</h2>
+                                            <ul>
+                                                <li>
+                                                    <h3>Majitel klubu:</h3>
+                                                </li>
+                                                <li>Robert Hamrla</li>
+                                                <li>
+                                                    <a
+                                                        href="mailto:robert@hokejvyskov.cz"
+                                                    >
+                                                        robert@hokejvyskov.cz
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <ul>
+                                                <li>
+                                                    <h3>
+                                                        Provozní manažer a
+                                                        sekretář klubu:
+                                                    </h3>
+                                                </li>
+                                                <li>Štefan Birdáš</li>
+                                                <li>
+                                                    <a
+                                                        href="mailto:stefan@hokejvyskov.cz"
+                                                    >
+                                                        stefan@hokejvyskov.cz
+                                                    </a>
+                                                    <a href="tel:+420777113012"
+                                                        >+420 777 113 012</a
+                                                    >
+                                                </li>
+                                            </ul>
+                                            <ul>
+                                                <li>
+                                                    <h3>Media manažer:</h3>
+                                                </li>
+                                                <li>Pavel Strachota</li>
+                                                <li>
+                                                    <a
+                                                        href="mailto:strachota@thebiggest.cz"
+                                                    >
+                                                        strachota@thebiggest.cz
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="tel:+420606183690">
+                                                        +420 606 183 690
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <h3>Vstupenky</h3>
+                                            <p>Vstupné<br /></p>
+                                            <p>150 Kč<br /></p>
+                                            <p>
+                                                Děti do 10-ti let a ZTP zdarma
+                                            </p>
+                                            <p>
+                                                Vstupenky je možné zakoupit
+                                                pouze na místě v den konání
+                                                zápasu. <br />
+                                                Prodej vstupenek začíná vždy
+                                                hodinu před zápasem.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <footer>
+                <div class="bottom foot">
+                    <div class="layout">
+                        <div class="row credit">
+                            <div class="row col-8 copyright">
+                                <div
+                                    class="col-lg-8 col-md-8 col-sm-6 col-12 cop-text"
+                                >
+                                    © 2015 - 2023 &nbsp; Hokej Vyškov & &nbsp;<a
+                                        href="http://esportsmedia.cz/"
+                                        >eSports.cz, s.r.o.</a
+                                    >
+                                </div>
+                                <div
+                                    class="col-lg-4 col-md-4 col-sm-6 col-12 rss"
+                                >
+                                    Cookie | <a href="rss.asp">RSS</a>
+                                </div>
+                            </div>
+                            <div class="col-4 design">
+                                Webdesigned by David Vošický
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </main>
+
+        <link
+            rel="stylesheet"
+            href="https://consent.esports.cz/theme.asp?v=2&accent=D12A3B"
+        />
+        <script src="https://consent.esports.cz/config.asp?v=2&c=analytics,social"></script>
+        <script src="https://consent.esports.cz/main.js?v=2"></script>
+        <script
+            type="text/plain"
+            data-cookiecategory="social"
+            src="https://consent.esports.cz/social-media2.js?v=2"
+        ></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script
+            type="text/javascript"
+            src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+        ></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/slick.min.js"></script>
+        <script type="text/javascript">
+            $(document).on("ready", function () {
+                $(".topstories").slick({
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    arrows: false,
+                    fade: true,
+                    asNavFor: ".topstories-nav",
+                    prevArrow: '<div class="arrow-left"></div>',
+                    nextArrow: '<div class="arrow-right"></div>',
+                    autoplay: true,
+                    autoplaySpeed: 4000,
+                });
+
+                $(".topstories-nav").slick({
+                    slidesToShow: 4,
+                    slidesToScroll: 1,
+                    asNavFor: ".topstories",
+                    focusOnSelect: true,
+                    arrows: false,
+                    variableWidth: false,
+                    responsive: [
+                        {
+                            breakpoint: 600,
+                            settings: {
+                                slidesToShow: 2,
+                                slidesToScroll: 2,
+                                variableWidth: false,
+                            },
+                        },
+                    ],
+                });
+
+                $(".partner-rotation").slick({
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    arrows: false,
+                    autoplay: true,
+                    autoplaySpeed: 3000,
+                });
+
+                // endregion
+
+                // html js classes
+                $("html").removeClass("no-js").addClass("js");
+            });
+
+            $(".partnersHP").slick({
+                infinitive: true,
+                autoplay: true,
+                autoplaySpeed: 1600,
+                arrows: false,
+                slidesToShow: 7,
+                slidesToScroll: 1,
+                lazyLoad: "ondemand",
+                responsive: [
+                    {
+                        breakpoint: 768,
+                        settings: { slidesToShow: 2, slidesToScroll: 1 },
+                    },
+                ],
+            });
+        </script>
+        <div id="fb-root"></div>
+        <script type="text/plain" data-cookiecategory="social">
+            (function(d, s, id) {
+                        var js, fjs = d.getElementsByTagName(s)[0];
+                        if (d.getElementById(id)) return;
+                        js = d.createElement(s); js.id = id;
+                        js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
+                        fjs.parentNode.insertBefore(js, fjs);
+                      }(document, 'script', 'facebook-jssdk'));
+        </script>
+
+        <div id="fb-root"></div>
+        <script
+            type="text/plain"
+            data-cookiecategory="social"
+            async
+            defer
+            crossorigin="anonymous"
+            src="https://connect.facebook.net/cs_CZ/sdk.js#xfbml=1&version=v4.0"
+        ></script>
+
+        <script src="https://apis.google.com/js/platform.js" async defer>
+            {lang: 'cs'}
+        </script>
+
+        <script type="text/plain" data-cookiecategory="social">
+            window.fbAsyncInit = function() {
+              FB.init({
+                appId      : '1501967823426253',
+                xfbml      : true,
+                version    : 'v2.1'
+              });
+            };
+
+            (function(d, s, id){
+               var js, fjs = d.getElementsByTagName(s)[0];
+               if (d.getElementById(id)) {return;}
+               js = d.createElement(s); js.id = id;
+               js.src = "//connect.facebook.net/cs_CZ/sdk.js";
+               fjs.parentNode.insertBefore(js, fjs);
+             }(document, 'script', 'facebook-jssdk'));
+        </script>
+
+        <script type="text/plain" data-cookiecategory="analytics">
+            var div = document.createElement('div'); div.innerHTML = '<img src="https://toplist.cz/dot.asp?id=1702537&http='+escape(document.referrer)+'&t='+escape(document.title)+'" width="1" height="1" style="display:none;" border=0 alt="TOPlist" />'; document.body.appendChild(div);
+        </script>
+
+        <script type="text/plain" data-cookiecategory="social">
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-65901072-2', 'auto');
+            ga('send', 'pageview');
+        </script>
+        <script
+            type="text/javascript"
+            src="https://vesna.esports.cz/weby_data/top_bar/top_bar_elh.js"
+        ></script>
+    </body>
+</html>
