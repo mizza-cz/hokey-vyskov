@@ -2790,6 +2790,7 @@ main {
 @media (max-width: 576px) {
   .tabulka-main .layout-soupiska .soupiska .full-box .main-text .stats-table {
     padding-right: 20px;
+    padding-left: 20px;
   }
 }
 .tabulka-main
@@ -4638,3 +4639,4 @@ games-owl-box .games-owl .games-box .buttons a,
 @import "bottom-banners";
 @import "hotfix";
 @import "static";
+@import "photogallery";
