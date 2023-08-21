@@ -510,6 +510,9 @@ i {
 .top-articles {
   margin-top: -15px;
   margin-bottom: 180px;
+  .slick-track {
+    width: 100% !important;
+  }
 }
 @media (max-width: 1200px) {
   .top-articles {
