@@ -94,7 +94,7 @@ main .row {
 }
 .top-bar .game-top {
   margin-left: 57px;
-  margin-right: 99px;
+  margin-right: 40px;
 }
 .top-bar .game-top .date {
   padding-top: 13px;
@@ -2710,6 +2710,9 @@ main {
   line-height: normal;
   letter-spacing: normal;
   color: #2a2a29;
+  @media (max-width: 576px) {
+    margin-left: 0;
+  }
 }
 @media (max-width: 578px) {
   .tabulka-main .layout-soupiska .soupiska .full-box .left-col .header {
@@ -2783,8 +2786,8 @@ main {
 @media (max-width: 576px) {
   .tabulka-main .layout-soupiska .soupiska .full-box .main-text {
     padding-top: 10px;
-    padding-left: 0%;
-    padding-right: 0%;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 }
 @media (max-width: 576px) {
@@ -3133,8 +3136,10 @@ main {
   }
 }
 .tabulka-main .layout-soupiska .soupiska .full-box .main-text .header-texty {
-  text-align: center;
   padding-bottom: 20px;
+  text-align: left;
+  @media (max-width: 576px) {
+  }
 }
 .tabulka-main .layout-soupiska .soupiska .full-box .main-text .control {
   margin-top: 10px;
