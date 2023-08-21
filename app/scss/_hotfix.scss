@@ -97,7 +97,7 @@
 
 header {
   position: relative;
-  z-index: 10000;
+  z-index: 999;
 }
 .top-articles {
   position: relative;
@@ -813,11 +813,6 @@ ul li a.active {
 .button span {
   background-color: #e20e18 !important;
 }
-.topnav.responsive a,
-.topnav.responsive .dropdown,
-.topnav.responsive .dropdown .dropbtn {
-  background-color: #dadada !important;
-}
 
 //.score-top { position: absolute; right: 50px;}
 .date {
@@ -928,4 +923,266 @@ ul li a.active {
 .stats-table .table-striped th:first-child,
 .stats-table .table-striped td:first-child {
   width: 50px;
+}
+
+#top_bar {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 40px;
+  background: url(https://vesna.esports.cz/weby_data/top_bar/druha_liga/bg.png)
+    repeat-x 0px 0px;
+  position: relative;
+  z-index: 9999;
+}
+
+#top_bar_icons_box {
+  width: 980px !important;
+  padding-left: 00px !important;
+  width: 1280px;
+  margin: auto;
+  padding-left: 85px;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+#cslh {
+  background: url(https://vesna.esports.cz/weby_data/top_bar/druha_liga/logo.png?3)
+    repeat-x 0px 0px;
+  width: 58px;
+  height: 40px;
+  display: inline-block;
+  margin-right: 15px;
+}
+#cslh:hover {
+  background: url(https://vesna.esports.cz/weby_data/top_bar/druha_liga/logo.png?3)
+    repeat-x 0px -40px;
+  width: 58px;
+  height: 40px;
+  display: inline-block;
+}
+#cslh a {
+  display: inline-block;
+  width: 58px;
+  height: 40px;
+}
+
+#sever {
+  background: url(https://vesna.esports.cz/weby_data/top_bar/druha_liga/skupinaSEVE.png)
+    repeat-x 0px 0px;
+  width: 120px;
+  height: 40px;
+  display: inline-block;
+  cursor: pointer;
+  margin-right: 10px;
+}
+#sever:hover {
+  background: url(https://vesna.esports.cz/weby_data/top_bar/druha_liga/skupinaSEVE.png)
+    repeat-x 0px -40px;
+  width: 120px;
+  height: 40px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+#vychod {
+  background: url(https://vesna.esports.cz/weby_data/top_bar/druha_liga/vychod.png)
+    repeat-x 0px 0px;
+  width: 120px;
+  height: 40px;
+  display: inline-block;
+  cursor: pointer;
+  margin-right: 15px;
+}
+#vychod:hover {
+  background: url(https://vesna.esports.cz/weby_data/top_bar/druha_liga/vychod.png)
+    repeat-x 0px -40px;
+  width: 120px;
+  height: 40px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+#zapad {
+  background: url(https://vesna.esports.cz/weby_data/top_bar/druha_liga/zapad.png)
+    repeat-x 0px 0px;
+  width: 120px;
+  height: 40px;
+  display: inline-block;
+  cursor: pointer;
+  margin-right: 15px;
+}
+#zapad:hover {
+  background: url(https://vesna.esports.cz/weby_data/top_bar/druha_liga/zapad.png)
+    repeat-x 0px -40px;
+  width: 120px;
+  height: 40px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+#stred {
+  background: url(https://vesna.esports.cz/weby_data/top_bar/druha_liga/skupinaS.png)
+    repeat-x 0px 0px;
+  width: 120px;
+  height: 40px;
+  display: inline-block;
+  cursor: pointer;
+  margin-right: 15px;
+}
+#stred:hover {
+  background: url(https://vesna.esports.cz/weby_data/top_bar/druha_liga/skupinaS.png)
+    repeat-x 0px -40px;
+  width: 120px;
+  height: 40px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+#jih {
+  background: url(https://vesna.esports.cz/weby_data/top_bar/druha_liga/skupinaJ.png)
+    repeat-x 0px 0px;
+  width: 120px;
+  height: 40px;
+  display: inline-block;
+  cursor: pointer;
+  margin-right: 15px;
+}
+#jih:hover {
+  background: url(https://vesna.esports.cz/weby_data/top_bar/druha_liga/skupinaJ.png)
+    repeat-x 0px -40px;
+  width: 120px;
+  height: 40px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+#hokejcz {
+  background: url(https://vesna.esports.cz/weby_data/top_bar/druha_liga/hokejcz.png)
+    repeat-x 0px 0px;
+  width: 104px;
+  height: 40px;
+  display: inline-block;
+}
+#hokejcz:hover {
+  background: url(https://vesna.esports.cz/weby_data/top_bar/druha_liga/hokejcz.png)
+    repeat-x 0px -40px;
+  width: 104px;
+  height: 40px;
+  display: inline-block;
+}
+#hokejcz a {
+  display: inline-block;
+  width: 104px;
+  height: 40px;
+}
+
+#onlajny {
+  background: url(https://vesna.esports.cz/weby_data/top_bar/druha_liga/onlajny.png)
+    repeat-x 0px 0px;
+  width: 104px;
+  height: 40px;
+  display: inline-block;
+}
+#onlajny:hover {
+  background: url(https://vesna.esports.cz/weby_data/top_bar/druha_liga/onlajny.png)
+    repeat-x 0px -40px;
+  width: 104px;
+  height: 40px;
+  display: inline-block;
+}
+#onlajny a {
+  display: inline-block;
+  width: 104px;
+  height: 40px;
+}
+
+#zapad_menu {
+  display: inline-block;
+}
+#bcg_top_bar_items {
+  display: flex;
+  align-items: center;
+}
+#bcg_top_bar_items ul {
+  font-family: Arial, Verdana;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  list-style: none;
+}
+#bcg_top_bar_items ul li {
+  display: block;
+  position: relative;
+  float: left;
+  margin-bottom: 12px;
+  margin-top: 12px;
+}
+#bcg_top_bar_items li ul {
+  display: none;
+  background: white;
+  border-color: #c9c9c9;
+  border-width: 12px;
+  width: 430px;
+  height: 235px;
+  margin-top: 24px;
+  font-size: 12px;
+  font-family: Arial;
+  padding-top: 10px;
+  padding-left: 10px;
+  z-index: 2000;
+}
+#vychodni_menu li ul {
+  display: none;
+  background: white;
+  border-color: #c9c9c9;
+  border-width: 12px;
+  width: 430px;
+  height: 235px;
+  margin-top: 24px;
+  font-size: 12px;
+  font-family: Arial;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+#bcg_top_bar_items ul li a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  padding: 5px 15px 5px 15px;
+  margin-left: 1px;
+  font-size: 12px;
+  font-family: Arial;
+  border: none;
+  width: 100%;
+}
+#bcg_top_bar_items ul li a:hover {
+  background-color: #fff;
+}
+#bcg_top_bar_items li:hover ul {
+  display: block;
+  position: absolute;
+  z-index: 100000;
+  height: auto;
+}
+#bcg_top_bar_items li:hover li {
+  width: 210px;
+}
+#bcg_top_bar_items li:hover li a:hover {
+  color: black;
+  text-decoration: underline;
+}
+@media only screen and (max-width: 1200px) {
+  #top_bar {
+    display: none;
+  }
+}
+.logo-top-PC a,
+.topnav.responsive .icon {
+  background-color: transparent !important;
+}
+.topnav.responsive a {
+  background-color: #e8e8e8;
 }
