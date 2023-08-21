@@ -758,13 +758,13 @@ table p {
   z-index: 1000 !important;
 }
 .logo-top-PC {
-  width: 140px;
+  width: 120px;
   position: absolute;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   left: 0;
   right: 26px;
-  top: -35px;
+  top: -24px;
   margin-left: auto;
   margin-right: auto;
   z-index: 10000 !important;
@@ -1185,4 +1185,14 @@ ul li a.active {
 }
 .topnav.responsive a {
   background-color: #e8e8e8;
+}
+@media only screen and (max-width: 1090px) {
+  .topnav.responsive {
+    width: 100%;
+    flex-direction: column;
+  }
+  .rightnav2,
+  .leftnav2 {
+    width: 100% !important;
+  }
 }

@@ -75,6 +75,12 @@ main .row {
   font-family: "Inter", sans-serif;
   background-color: #e20e18;
   height: 40px;
+  overflow: hidden;
+}
+@media (max-width: 1050px) {
+  .row.top-bar {
+    display: none !important;
+  }
 }
 .top-bar .logo-top {
   position: relative;
@@ -93,8 +99,8 @@ main .row {
   }
 }
 .top-bar .game-top {
-  margin-left: 57px;
-  margin-right: 40px;
+  margin-left: 24px;
+  margin-right: 24px;
 }
 .top-bar .game-top .date {
   padding-top: 13px;
