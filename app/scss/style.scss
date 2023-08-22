@@ -4650,6 +4650,35 @@ games-owl-box .games-owl .games-box .buttons a,
     width: 100%;
   }
 }
+.mt-10 {
+  margin-top: 40px;
+}
+.table-page {
+  th,
+  td {
+    white-space: nowrap;
+    padding-top: 9px;
+    padding-bottom: 9px;
+  }
+  th,
+  td {
+    text-align: center;
+  }
+  th:nth-child(2),
+  td:nth-child(2) {
+    text-align: left;
+  }
+}
+.table-descr {
+  padding-left: 0;
+  margin-bottom: 32px;
+  li {
+    list-style: none;
+    padding-left: 0 !important;
+    margin-bottom: 8px;
+    margin-top: 8px;
+  }
+}
 @import "bottom-banners";
 @import "hotfix";
 @import "static";

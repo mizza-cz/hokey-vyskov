@@ -103,6 +103,9 @@ header {
   position: relative;
   height: 984px;
   bottom: 40px;
+  .slick-list {
+    height: inherit;
+  }
 }
 
 .top-content {

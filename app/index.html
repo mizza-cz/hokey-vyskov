@@ -828,6 +828,15 @@
                         </li>
                         <li role="presentation">
                             <a
+                                href="#playoff"
+                                aria-controls="playoff"
+                                role="tab"
+                                data-toggle="tab"
+                                ><span class="visible-xs">Play-off</span></a
+                            >
+                        </li>
+                        <li role="presentation">
+                            <a
                                 href="#jun"
                                 aria-controls="jun"
                                 role="tab"
@@ -904,6 +913,57 @@
 
                         <div role="tabpanel" class="tab-pane fade" id="muzb">
                             <div class="row games"></div>
+                            <a href="#">
+                                <div class="row games-more">
+                                    <span>Rozpis zápasů</span>
+                                </div>
+                            </a>
+                        </div>
+                        
+                        <div role="tabpanel" class="tab-pane fade" id="playoff">
+                            <div class="row games"></div>
+                            <div class="row games">
+                                <div
+                                    class="col-lg-4 col-md-12 previous-game next-game"
+                                >
+                                    <div class="date">
+                                        8. srpna<br />
+                                        úterý
+                                    </div>
+
+                                    <div class="time">&nbsp;</div>
+
+                                    <div
+                                        class="row teams justify-content-center align-items-center"
+                                    >
+                                        <div class="my-team">
+                                            AZ Heimstaden Havířov
+                                        </div>
+
+                                        <div class="my-team-logo">
+                                            <img src="images/znaky/hav.png" />
+                                        </div>
+
+                                        <div class="score">-:-</div>
+
+                                        <div class="opponent-team-logo">
+                                            <img src="images/logo.png" />
+                                        </div>
+
+                                        <div class="opponent-team">
+                                            HC Frýdek-Místek
+                                        </div>
+                                    </div>
+                                    <!-- row teams justify-content-center align-items-center -->
+
+                                    <div class="row game-buttons">
+                                        <div class="col-12 rep-onl prew"></div>
+                                        <!-- col-12 rep-onl prew -->
+                                    </div>
+                                    <!-- row game-buttons -->
+                                </div>
+                                <!-- col-lg-4 col-md-12 previous-game next-game -->
+                            </div>
                             <a href="#">
                                 <div class="row games-more">
                                     <span>Rozpis zápasů</span>
@@ -1567,9 +1627,10 @@
                     Sociální sítě
                   </div>
                   <div class="bottom-text">
-                    <a href="#"><i class="fab fa-facebook-square"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a target="_blank" href="#"><i class="fab fa-facebook-square"></i></a>
+                    <a target="_blank" href="#"><i class="fab fa-instagram"></i></a>
+                    <a target="_blank" href="#"><i class="fab fa-youtube"></i></a>
+                    <a target="_blank" href="#"><i class="fab fa-twitter"></i></a>
                   </div>
                 </div>
               
