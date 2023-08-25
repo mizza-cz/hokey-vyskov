@@ -1,0 +1,894 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Hokej Vyškov</title>
+
+        <link
+            href="https://fonts.googleapis.com/icon?family=Material+Icons"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+
+        <script src="https://kit.fontawesome.com/f68c8e462e.js"></script>
+        <link rel="stylesheet" href="css/bootstrap.css" />
+        <link rel="stylesheet" type="text/css" href="css/slick.css" />
+        <link rel="stylesheet" href="css/menu_new.css" />
+        <link rel="stylesheet" href="css/style.min.css" />
+        <link rel="stylesheet" href="css/top-bar.css" />
+    </head>
+    <body>
+        <div id="top_bar_icons" class="hidden-sm hidden-xs">
+            <!-- Lista s tymy -->
+            <div
+                id="hockey_bar_esports"
+                data-idTeam="JFM"
+                data-googleSearch=""
+                data-competition="1liga"
+            ></div>
+        </div>
+
+        <header>
+            <div class="container-fluid">
+                <div class="row top-bar">
+                    <div class="logo-top">
+                        <a href="/"><img src="images/logo.png" /></a>
+                    </div>
+
+                    <div class="row game-top game-top-right">
+                        <div class="date">
+                            úterý&nbsp;
+                            <span class="date-bold">8.8.2023&nbsp;</span>
+                            &nbsp;
+                        </div>
+                        <div class="score-top">
+                            <img src="images/znaky/hav.png" />
+                            <span class="score">-:-</span>
+                            <img src="images/logo.png" />
+                        </div>
+                        <div class="onlajn-btn"></div>
+                    </div>
+                </div>
+            </div>
+            <div classs="navbar">
+                <div class="topnav" id="myTopnav">
+                    <div class="leftnav2">
+                        <div class="dropdown">
+                            <button class="dropbtn">
+                                Klub
+                                <i class="caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                                <a class="dropdown-item" href="#"
+                                    >Informace o klubu</a
+                                >
+                                <a class="dropdown-item" href="#"
+                                    >Informace o stadionu</a
+                                >
+                                <a class="dropdown-item" href="#">Historie</a>
+                                <a class="dropdown-item" href="#"
+                                    >Vedení klubu - A tým</a
+                                >
+                                <a class="dropdown-item" href="#"
+                                    >Vedení klubu - mládež</a
+                                >
+                                <a class="dropdown-item" href="#">Kontakty</a>
+                                <a class="dropdown-item" href="#"
+                                    >Logo ke stažení</a
+                                >
+                                <a class="dropdown-item" href="#">Press info</a>
+                            </div>
+                        </div>
+
+                        <div class="dropdown">
+                            <button class="dropbtn">
+                                Tým
+                                <i class="caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                                <a class="dropdown-item" href="#">Soupiska</a>
+                                <a class="dropdown-item" href="#"
+                                    >Realizační tým</a
+                                >
+                                <a class="dropdown-item" href="#">Statistiky</a>
+                                <a class="dropdown-item" href="#"
+                                    >Dotační program</a
+                                >
+                            </div>
+                        </div>
+
+                        <div class="dropdown">
+                            <button class="dropbtn">
+                                Vstupenky
+                                <i class="caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                                <a class="dropdown-item" href="#">Vstupenky</a>
+                                <a class="dropdown-item" href="#"
+                                    >Permanentky</a
+                                >
+                                <a class="dropdown-item" href="#"
+                                    >Dárkové poukazy</a
+                                >
+                                <a class="dropdown-item" href="#">VIP</a>
+                                <a class="dropdown-item" href="#">Skybox</a>
+                            </div>
+                        </div>
+
+                        <div class="dropdown">
+                            <button class="dropbtn">
+                                Fanzóna
+                                <i class="caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                                <a class="dropdown-item" href="#"
+                                    >FM žije hokejem</a
+                                >
+                                <a
+                                    class="dropdown-item"
+                                    href="#"
+                                    target="_blank"
+                                    >Fanklub</a
+                                >
+                                <a
+                                    class="dropdown-item"
+                                    href="#"
+                                    target="_blank"
+                                    >Fanshop</a
+                                >
+                                <a class="dropdown-item" href="#"
+                                    >Dárkové poukazy</a
+                                >
+                                <a class="dropdown-item" href="#"
+                                    >Podpisy hráčů</a
+                                >
+                                <a class="dropdown-item" href="#"
+                                    >Sociální sítě</a
+                                >
+                            </div>
+                        </div>
+
+                        <div class="dropdown">
+                            <button class="dropbtn">
+                                Zápasy
+                                <i class="caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                                <a class="dropdown-item" href="#"
+                                    >Chance liga</a
+                                >
+                                <a class="dropdown-item" href="#"
+                                    >Přípravné zápasy</a
+                                >
+                                <a class="dropdown-item" href="#">Tabulka</a>
+                                <a class="dropdown-item" href="#"
+                                    >Výsledkový servis</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="logo-top-PC">
+                        <a href="/"><img src="images/logo.png" /></a>
+                    </div>
+
+                    <div class="rightnav2">
+                        <div class="dropdown">
+                            <button class="dropbtn">
+                                Mládež
+                                <i class="caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                                <a class="dropdown-item" href="#"
+                                    >Realizační týmy</a
+                                >
+                                <a class="dropdown-item" href="mladez.asp"
+                                    >Rozcestník mládeže</a
+                                >
+                                <a class="dropdown-item" href="#"
+                                    >Články mládeže</a
+                                >
+                                <a class="dropdown-item" href="#">Nábor</a>
+                                <a
+                                    class="dropdown-item"
+                                    href="#"
+                                    target="_blank"
+                                    >Facebook mládeže</a
+                                >
+                                <a class="dropdown-item" href="#"
+                                    >Oddílové příspěvky</a
+                                >
+                                <a class="dropdown-item" href="#"
+                                    >Dotační programy</a
+                                >
+                                <a class="dropdown-item" href="#"
+                                    >Individuální cvičení</a
+                                >
+                            </div>
+                        </div>
+
+                        <div class="dropdown">
+                            <button class="dropbtn">
+                                Muži B
+                                <i class="caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                                <a class="dropdown-item" href="#">Soupiska</a>
+                                <a class="dropdown-item" href="#">Zápasy</a>
+                                <a class="dropdown-item" href="#">Příprava</a>
+                                <a
+                                    class="dropdown-item"
+                                    href="#"
+                                    target="_blank"
+                                    >Tabulka</a
+                                >
+                                <a
+                                    class="dropdown-item"
+                                    href="#"
+                                    target="_blank"
+                                    >Statistiky</a
+                                >
+                                <a
+                                    class="dropdown-item"
+                                    href="#"
+                                    target="_blank"
+                                    >Články muži B</a
+                                >
+                                <a class="dropdown-item" href="#"
+                                    >Realizační tým</a
+                                >
+                            </div>
+                        </div>
+
+                        <a href="#">Partneři</a>
+
+                        <div class="dropdown">
+                            <button class="dropbtn">
+                                Fotogalerie
+                                <i class="caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                                <a class="dropdown-item" href="#"
+                                    >Fotogalerie muži</a
+                                >
+                                <a class="dropdown-item" href="#"
+                                    >Fotogalerie mládež</a
+                                >
+                            </div>
+                        </div>
+
+                        <div class="dropdown">
+                            <button class="dropbtn">
+                                Archiv
+                                <i class="caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                                <a class="dropdown-item" href="#"
+                                    >Archiv článků</a
+                                >
+                                <a class="dropdown-item" href="#"
+                                    >Archiv aktualit</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+
+                    <a
+                        href="javascript:void(0);"
+                        class="icon"
+                        onclick="myFunction()"
+                        >MENU &#9776;</a
+                    >
+                </div>
+            </div>
+
+            <script>
+                function myFunction() {
+                    var x = document.getElementById("myTopnav");
+                    if (x.className === "topnav") {
+                        x.className += " responsive";
+                    } else {
+                        x.className = "topnav";
+                    }
+                }
+            </script>
+        </header>
+        <main class="main">
+            <div class="tabulka-main table-page">
+                <div class="layout layout-soupiska">
+                    <div class="soupiska">
+                        <div class="row full-box">
+                            <div
+                                class="col-lg-3 col-md-3 col-sm-4 col-12 left-col"
+                            >
+                                <div class="box submenu">
+                                    <div class="header">A-Tým</div>
+                                    <div class="header-small">Statistiky</div>
+                                    <ul>
+                                        <a
+                                            class="dropdown-item"
+                                            href="soupiska.asp"
+                                            style="display: none"
+                                            >Soupiska</a
+                                        >
+                                        <a
+                                            class="dropdown-item"
+                                            href="zobraz.asp?t=realizacni-tym"
+                                            >Realizační tým</a
+                                        >
+                                        <a
+                                            class="dropdown-item"
+                                            href="statistiky.asp"
+                                            >Tabulka</a
+                                        >
+                                    </ul>
+                                </div>
+                            </div>
+                            <div
+                                class="col-lg-9 col-md-9 col-sm-8 col-12 main-text"
+                            >
+                                <div class="row ">
+                                    <div
+                                        class="col-xxl-9 col-12 header"
+                                    >
+                                      Statistiky 2022/23
+                                    </div>
+                                    <div
+                                        class="col-xl-3 col-12 row season-btn"
+                                    >
+                                        <select
+                                            class="control"
+                                            onchange="location.href=this.options[this.selectedIndex].value"
+                                        >
+                                            <option value="">
+                                                --Další sezóny--
+                                            </option>
+
+                                            <option
+                                                value="soupiska.asp?sezona=2024"
+                                            >
+                                                2023/2024
+                                            </option>
+
+                                            <option
+                                                value="soupiska.asp?sezona=2023"
+                                            >
+                                                2022/2023
+                                            </option>
+
+                                            <option
+                                                value="soupiska.asp?sezona=2022"
+                                            >
+                                                2021/2022
+                                            </option>
+
+                                            <option
+                                                value="soupiska.asp?sezona=2021"
+                                            >
+                                                2020/2021
+                                            </option>
+
+                                            <option
+                                                value="soupiska.asp?sezona=2020"
+                                            >
+                                                2019/2020
+                                            </option>
+
+                                            <option
+                                                value="soupiska.asp?sezona=2019"
+                                            >
+                                                2018/2019
+                                            </option>
+
+                                            <option
+                                                value="soupiska.asp?sezona=2018"
+                                            >
+                                                2017/2018
+                                            </option>
+
+                                            <option
+                                                value="soupiska.asp?sezona=2017"
+                                            >
+                                                2016/2017
+                                            </option>
+
+                                            <option
+                                                value="soupiska.asp?sezona=2016"
+                                            >
+                                                2015/2016
+                                            </option>
+
+                                            <option
+                                                value="soupiska.asp?sezona=2015"
+                                            >
+                                                2014/2015
+                                            </option>
+                                        </select>
+                                    </div>
+                                </div>
+                              <div class="stats-table mt-10">
+                                <p class="mb-4">
+                                    <strong>Vysvětlivky</strong>
+                                    položek naleznete dole pod tabulkami.
+                                    <br />
+                                    <strong>TIP!</strong>
+                                    kliknutím na jednotlivá statistická čísla získáte podrobný přehled
+                                    statistik v zápase.
+                                  </p>
+                                  <div style="overflow-x: auto">
+                                    <table class="table table-striped table-borderless">
+                                        <thead>
+                                          <tr>
+                                            <th>#</th>
+                                            <th>brankáři</th>
+                                            <th>Z</th>
+                                            <th>Min</th>
+                                            <th>Stř</th>
+                                            <th>Ink</th>
+                                            <th>Zás</th>
+                                            <th>Prů</th>
+                                            <th>Úsp</th>
+                                            <th>SO</th>
+                                            <th>A</th>
+                                            <th>
+                                              <a href="#">TM</a>
+                                            </th>
+                                          </tr>
+                                        </thead>
+                                        <tbody>
+                                          <tr>
+                                            <td>2.</td>
+                                            <td><a href="#">AGašper Krošelj</a></td>
+                                            <td>32</td>
+                                            <td>1702:07</td>
+                                            <td>755</td>
+                                            <td>20</td>
+                                            <td>13</td>
+                                            <td>56:24</td>
+                                            <td>32</td>
+                                            <td>26</td>
+                                            <td>32</td>
+                                            <td>26</td>
+                                          </tr>
+                                          <tr>
+                                            <td>4.</td>
+                                            <td><a href="#">XGašper Krošelj</a></td>
+                                            <td>32</td>
+                                            <td>1702:07</td>
+                                            <td>755</td>
+                                            <td>20</td>
+                                            <td>13</td>
+                                            <td>56:24</td>
+                                            <td>32</td>
+                                            <td>26</td>
+                                            <td>32</td>
+                                            <td>26</td>
+                                          </tr>
+                                          <tr>
+                                            <td>1.</td>
+                                            <td><a href="#">fGašper Krošelj</a></td>
+                                            <td>32</td>
+                                            <td>1702:07</td>
+                                            <td>755</td>
+                                            <td>20</td>
+                                            <td>13</td>
+                                            <td>56:24</td>
+                                            <td>32</td>
+                                            <td>26</td>
+                                            <td>32</td>
+                                            <td>26</td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                </div>
+                                <div
+                                        class="col-xl-3 col-12 row season-btn mb-6"
+                                    >
+                                        <select
+                                            class="control"
+                                            onchange="location.href=this.options[this.selectedIndex].value"
+                                        >
+                                        <option>Zobrazit:</option>
+                                        <option value="tipsport">
+                                          odděleně obránci a útočníci
+                                        </option>
+                                        <option value="tipsport">všichni hráči dohromady</option>
+                                        </select>
+                                    </div>
+                                <div style="overflow-x: auto">
+                                    <table class="table table-striped table-borderless mb-6">
+                                        <thead>
+                                          <tr>
+                                            <th>#</th>
+                                            <th>obránci</th>
+                                            <th>P</th>
+                                            <th>Z</th>
+                                            <th>G</th>
+                                            <th>A</th>
+                                            <th>B</th>
+                                            <th>+/-</th>
+                                            <th>TM</th>
+                                          </tr>
+                                        </thead>
+                                        <tbody>
+                                          <tr>
+                                            <td>4.</td>
+                                            <td><a href="#">kkGašper Krošelj</a></td>
+                                            <td>32</td>
+                                            <td>755</td>
+                                            <td>20</td>
+                                            <td>32</td>
+                                            <td>26</td>
+                                            <td>32</td>
+                                            <td>26</td>
+                                          </tr>
+                                          <tr>
+                                            <td>2.</td>
+                                            <td><a href="#">ddGašper Krošelj</a></td>
+                                            <td>32</td>
+                                            <td>755</td>
+                                            <td>20</td>
+                                            <td>32</td>
+                                            <td>26</td>
+                                            <td>32</td>
+                                            <td>26</td>
+                                          </tr>
+                                          <tr>
+                                            <td>88.</td>
+                                            <td><a href="#">XXGašper Krošelj</a></td>
+                                            <td>32</td>
+                                            <td>755</td>
+                                            <td>20</td>
+                                            <td>32</td>
+                                            <td>26</td>
+                                            <td>32</td>
+                                            <td>26</td>
+                                          </tr>
+                                          <tr>
+                                            <td>66.</td>
+                                            <td><a href="#">AAGašpaer Krošelj</a></td>
+                                            <td>32</td>
+                                            <td>755</td>
+                                            <td>20</td>
+                                            <td>32</td>
+                                            <td>26</td>
+                                            <td>32</td>
+                                            <td>26</td>
+                                          </tr>
+                                          <tr>
+                                            <td>32.</td>
+                                            <td><a href="#">Gašper Krošelj</a></td>
+                                            <td>32</td>
+                                            <td>755</td>
+                                            <td>20</td>
+                                            <td>32</td>
+                                            <td>26</td>
+                                            <td>32</td>
+                                            <td>26</td>
+                                          </tr>
+                                          <tr>
+                                            <td>32.</td>
+                                            <td><a href="#">Gašper Krošelj</a></td>
+                                            <td>32</td>
+                                            <td>755</td>
+                                            <td>20</td>
+                                            <td>32</td>
+                                            <td>26</td>
+                                            <td>32</td>
+                                            <td>26</td>
+                                          </tr>
+                                          <tr>
+                                            <td>32.</td>
+                                            <td><a href="#">Gašper Krošelj</a></td>
+                                            <td>32</td>
+                                            <td>755</td>
+                                            <td>20</td>
+                                            <td>32</td>
+                                            <td>26</td>
+                                            <td>32</td>
+                                            <td>26</td>
+                                          </tr>
+                                          <tr>
+                                            <td>32.</td>
+                                            <td><a href="#">Gašper Krošelj</a></td>
+                                            <td>32</td>
+                                            <td>755</td>
+                                            <td>20</td>
+                                            <td>32</td>
+                                            <td>26</td>
+                                            <td>32</td>
+                                            <td>26</td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                      <table class="table table-striped table-borderless mb-10">
+                                        <thead>
+                                          <tr>
+                                            <th>#</th>
+                                            <th>útočníci</th>
+                                            <th>P</th>
+                                            <th>Z</th>
+                                            <th>G</th>
+                                            <th>A</th>
+                                            <th>B</th>
+                                            <th>+/-</th>
+                                            <th>TM</th>
+                                          </tr>
+                                        </thead>
+                                        <tbody>
+                                          <tr>
+                                            <td>1.</td>
+                                            <td><a href="#">Gašper Krošelj</a></td>
+                                            <td>32</td>
+                                            <td>755</td>
+                                            <td>20</td>
+                                            <td>32</td>
+                                            <td>26</td>
+                                            <td>32</td>
+                                            <td>26</td>
+                                          </tr>
+                                          <tr>
+                                            <td>3.</td>
+                                            <td><a href="#">Gašper Krošelj</a></td>
+                                            <td>32</td>
+                                            <td>755</td>
+                                            <td>20</td>
+                                            <td>32</td>
+                                            <td>26</td>
+                                            <td>32</td>
+                                            <td>26</td>
+                                          </tr>
+                                          <tr>
+                                            <td>1.</td>
+                                            <td><a href="#">CC Krošelj</a></td>
+                                            <td>32</td>
+                                            <td>755</td>
+                                            <td>20</td>
+                                            <td>32</td>
+                                            <td>26</td>
+                                            <td>32</td>
+                                            <td>26</td>
+                                          </tr>
+                                          <tr>
+                                            <td>32.</td>
+                                            <td><a href="#">XX Krošelj</a></td>
+                                            <td>32</td>
+                                            <td>755</td>
+                                            <td>20</td>
+                                            <td>32</td>
+                                            <td>26</td>
+                                            <td>32</td>
+                                            <td>26</td>
+                                          </tr>
+                                          <tr>
+                                            <td>32.</td>
+                                            <td><a href="#">AA Krošelj</a></td>
+                                            <td>32</td>
+                                            <td>755</td>
+                                            <td>20</td>
+                                            <td>32</td>
+                                            <td>26</td>
+                                            <td>32</td>
+                                            <td>26</td>
+                                          </tr>
+                                          <tr>
+                                            <td>32.</td>
+                                            <td><a href="#">BB Krošelj</a></td>
+                                            <td>32</td>
+                                            <td>755</td>
+                                            <td>20</td>
+                                            <td>32</td>
+                                            <td>26</td>
+                                            <td>32</td>
+                                            <td>26</td>
+                                          </tr>
+                                          <tr>
+                                            <td>32.</td>
+                                            <td><a href="#">Gašper Krošelj</a></td>
+                                            <td>32</td>
+                                            <td>3</td>
+                                            <td>111</td>
+                                            <td>32</td>
+                                            <td>6</td>
+                                            <td>88</td>
+                                            <td>99</td>
+                                          </tr>
+                                          <tr>
+                                            <td>32.</td>
+                                            <td><a href="#">Gašper Krošelj</a></td>
+                                            <td>32</td>
+                                            <td>3333</td>
+                                            <td>2222</td>
+                                            <td>32</td>
+                                            <td>26</td>
+                                            <td>32</td>
+                                            <td>26</td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    </div>
+                             
+                                  <ul class="table-descr">
+                                    <li>
+                                      <strong>#</strong> - číslo dresu v posledním zápase (pro případ, že
+                                      by se měnilo)
+                                    </li>
+                                    <li><strong>Z</strong> - počet zápasů, v nichž hráč nastoupil</li>
+                                    <li>
+                                      <strong>Zač</strong> - počet zápasů, v nichž hráč nastoupil od
+                                      začátku
+                                    </li>
+                                    <li><strong>Min</strong> - počet odchytaných minut</li>
+                                    <li><strong>Stř</strong> - počet střel vyslaných na brankáře</li>
+                                    <li><strong>Ink</strong> - počet inkasovaných gólů</li>
+                                    <li><strong>Zás</strong> - počet zásahů</li>
+                                    <li>
+                                      <span>Prů</span> - průměr gólů na zápas ( = inkasované góly /
+                                      minuty/60 )
+                                    </li>
+                                    <li><strong>Úsp</strong> - úspěšnost zásahů ( = zásahy / střely )</li>
+                                    <li><strong>SO</strong> - shut-outy, vychytané nuly</li>
+                                    <li><strong>A</strong> - asistence</li>
+                                    <li><strong>TM</strong> - trestné minuty</li>
+                                  </ul>
+                              </div>
+                              
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bottom">
+				<div class="layout">
+					<div class="row">
+						<div class="col-lg-2 col-md-4 col-sm-4 col-6 logo">
+							<a href="/"><img src="/images/logo.png"></a>
+						</div>
+						<div class="col-lg-2 col-md-4 col-sm-4 col-6">
+							<div class="bottom-header">
+								Hokej Vyškov	
+							</div>
+							<div class="bottom-text">
+								Zimní stadion Vyškov <br>
+								Mlýnská 12, Dědice <br>
+								682 01 Vyškov 
+							</div>
+						</div>
+						<div class="col-lg-2 col-md-4 col-sm-4 col-6 contacts">
+							<div class="bottom-header">
+								Kontakty
+							</div>
+							<div class="bottom-text">
+								<a href="mailto:info@hokejvyskov.cz">info@hokejvyskov.cz</a></br>
+							</div>
+						</div>
+						<div class="col-lg-2 col-md-4 col-sm-4 col-6 bottom-social">
+							<div class="bottom-header">
+								Sociální sítě
+							</div>
+                            <div class="bottom-text">
+                                <a target="_blank" href="#"><i class="fab fa-facebook-square"></i></a>
+                                <a target="_blank" href="#"><i class="fab fa-instagram"></i></a>
+                                <a target="_blank" href="#"><i class="fab fa-youtube"></i></a>
+                                <a target="_blank" href="#"><i class="fab fa-twitter"></i></a>
+                              </div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<footer>
+				<div class="bottom foot">
+					<div class="layout">
+						<div class="row credit">
+							<div class="row col-8 copyright">
+								<div class="col-lg-8 col-md-8 col-sm-6 col-12 cop-text">
+									© 2023 &nbsp; Hokej Vyškov & &nbsp;<a href="http://esportsmedia.cz/">eSports.cz, s.r.o.</a>
+								</div>
+								<div class="col-lg-4 col-md-4 col-sm-6 col-12 rss">
+									<a href="javascript:void(0);" data-cc="c-settings" aria-haspopup="dialog">Cookies</a>
+								</div>
+							</div>
+							<div class="col-4 design">
+								Webdesigned by David Vošický
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+        </main>
+
+        <link
+            rel="stylesheet"
+            href="https://consent.esports.cz/theme.asp?v=2&accent=D12A3B"
+        />
+        <script src="https://consent.esports.cz/config.asp?v=2&c=analytics,social"></script>
+        <script src="https://consent.esports.cz/main.js?v=2"></script>
+        <script
+            type="text/plain"
+            data-cookiecategory="social"
+            src="https://consent.esports.cz/social-media2.js?v=2"
+        ></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script
+            type="text/javascript"
+            src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+        ></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/slick.min.js"></script>
+        <script type="text/javascript">
+            $(document).on("ready", function () {
+                $(".topstories").slick({
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    arrows: false,
+                    fade: true,
+                    asNavFor: ".topstories-nav",
+                    prevArrow: '<div class="arrow-left"></div>',
+                    nextArrow: '<div class="arrow-right"></div>',
+                    autoplay: true,
+                    autoplaySpeed: 4000,
+                });
+
+                $(".topstories-nav").slick({
+                    slidesToShow: 4,
+                    slidesToScroll: 1,
+                    asNavFor: ".topstories",
+                    focusOnSelect: true,
+                    arrows: false,
+                    variableWidth: false,
+                    responsive: [
+                        {
+                            breakpoint: 600,
+                            settings: {
+                                slidesToShow: 2,
+                                slidesToScroll: 2,
+                                variableWidth: false,
+                            },
+                        },
+                    ],
+                });
+
+                $(".partner-rotation").slick({
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    arrows: false,
+                    autoplay: true,
+                    autoplaySpeed: 3000,
+                });
+
+                // endregion
+
+                // html js classes
+                $("html").removeClass("no-js").addClass("js");
+            });
+
+            $(".partnersHP").slick({
+                infinitive: true,
+                autoplay: true,
+                autoplaySpeed: 1600,
+                arrows: false,
+                slidesToShow: 7,
+                slidesToScroll: 1,
+                lazyLoad: "ondemand",
+                responsive: [
+                    {
+                        breakpoint: 768,
+                        settings: { slidesToShow: 2, slidesToScroll: 1 },
+                    },
+                ],
+            });
+        </script>
+
+        <script
+            type="text/javascript"
+            src="https://vesna.esports.cz/weby_data/top_bar/top_bar_elh.js"
+        ></script>
+    </body>
+</html>
