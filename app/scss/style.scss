@@ -4717,6 +4717,38 @@ games-owl-box .games-owl .games-box .buttons a,
     margin-top: 20px;
   }
 }
+.top-content {
+  .top-story-img {
+    display: none !important;
+  }
+  .top-story-img.slick-active {
+    left: 0 !important;
+    display: block !important;
+  }
+}
+.articles-more {
+  margin: auto;
+  margin-top: 30px;
+  width: 270px;
+  height: 55px;
+  border-radius: 27.5px;
+  background-color: #e20e18;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  span {
+    margin: auto;
+  }
+}
 @import "bottom-banners";
 @import "hotfix";
 @import "static";
