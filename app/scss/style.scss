@@ -1171,6 +1171,7 @@ i {
     height: 185px;
   }
 }
+.fanshop-section .games-more,
 .games-section .games-more {
   margin: auto;
   margin-top: 30px;
@@ -1186,13 +1187,17 @@ i {
   letter-spacing: normal;
   color: #ffffff;
 }
+.fanshop-section .games-more span,
 .games-section .games-more span {
   margin: auto;
 }
+.fanshop-section .games-more span a,
 .games-section .games-more span a {
   color: #ffffff;
 }
+
 @media (max-width: 500px) {
+  .fanshop-section .games-more,
   .games-section .games-more {
     width: 180px;
     height: 40px;
@@ -4755,6 +4760,82 @@ games-owl-box .games-owl .games-box .buttons a,
 }
 .mb-6 {
   margin-bottom: 24px;
+}
+.fanshop-section {
+  .box {
+    box-shadow: 0 0 8px 0 gray;
+    border: none;
+    > div {
+      aspect-ratio: none;
+      img {
+        margin-bottom: 24px;
+        display: block;
+        height: 264px;
+        width: 100%;
+        object-fit: contain;
+        @media only screen and (max-width: 640px) {
+          height: auto;
+          aspect-ratio: 320/240;
+        }
+      }
+      display: flex;
+      flex-direction: column;
+      color: var(--color-dark);
+      p {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+.p1 {
+  font-size: 18px;
+  line-height: normal;
+}
+.fanshop-section {
+  p {
+    color: #000;
+    font-weight: 400;
+  }
+  &__wrapper {
+    margin-top: 80px;
+    padding-bottom: 80px;
+    @media only screen and (max-width: 1090px) {
+      margin-top: 40px;
+    }
+  }
+}
+.fanshop-form {
+  margin-top: 40px;
+
+  label {
+    display: block;
+    margin-bottom: 32px;
+
+    span {
+      display: block;
+      font-size: 16px;
+      font-weight: 600;
+      margin-bottom: 4px;
+    }
+  }
+  input {
+    width: 100%;
+    height: 44px;
+    padding: 0 16px;
+  }
+  textarea {
+    display: block;
+    width: 100%;
+    padding: 16px;
+    resize: none;
+    color: #000;
+  }
+  .games-more {
+    border: none;
+    outline: none;
+    display: block;
+    margin: 0 auto;
+  }
 }
 @import "bottom-banners";
 @import "hotfix";
