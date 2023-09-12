@@ -266,7 +266,14 @@ header {
 .top-articles .more-articles .article.slick-current {
   color: white;
 }
-
+@media only screen and (max-width: 1200px) and (min-width: 600px) {
+  .top-articles .more-articles .article {
+    width: 100%;
+  }
+}
+.top-articles .more-articles .article {
+  width: auto !important;
+}
 .top-articles .more-articles .article.slick-current:after {
   -webkit-animation: hundredpercent 4s forwards;
   animation: hundredpercent 4s forwards;
@@ -1242,5 +1249,15 @@ ul li a.active {
   .header-form__select::before {
     top: 22px;
     right: 18px;
+  }
+}
+@media (max-width: 600px) {
+  .top-articles .more-articles .article {
+    flex: 100%;
+  }
+  .topstories-nav {
+    .slick-track {
+      display: flex;
+    }
   }
 }
