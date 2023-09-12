@@ -9,16 +9,16 @@ html {
   }
 }
 html {
-  background-color: #2a2a29;
+  background-color: #1d1d1c;
 }
 body {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 100;
-  background-color: #2a2a29;
+  background-color: #1d1d1c;
 }
 main {
-  background-color: #2a2a29;
+  background-color: #1d1d1c;
   color: #2a2a29;
 }
 @media (max-width: 1200px) {
@@ -322,30 +322,35 @@ i {
 .bottom {
   background-color: #2a2a29;
   padding-top: 50px;
-}
-@media (max-width: 1100px) {
-  .bottom {
-    margin-top: -20px;
+  &__row {
+    display: flex;
+    justify-content: space-between;
+    @media (max-width: 640px) {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
   }
 }
-@media (max-width: 768px) {
-  .bottom {
-    margin-top: 220px;
+.bottom__info {
+  @media (max-width: 640px) {
+    order: 2;
+    margin-top: 20px;
   }
 }
-@media (max-width: 600px) {
-  .bottom {
-    margin-top: 0px;
-  }
-}
-@media (max-width: 370px) {
-  .bottom {
-    margin-top: 0px;
-  }
-}
-.bottom .logo img {
+.bottom__logo {
   width: 100px;
   height: auto;
+  display: block;
+  @media (max-width: 640px) {
+    margin-bottom: 12px;
+  }
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
 }
 @media (max-width: 992px) {
   .bottom .bottom-social {
@@ -458,32 +463,49 @@ i {
   letter-spacing: normal;
   text-align: center;
   color: rgba(255, 255, 255, 0.8);
+  @media (max-width: 992px) {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+  }
 }
 .bottom .credit .copyright {
   text-align: left;
   padding-left: 0px;
+  @media (max-width: 992px) {
+    flex-direction: column;
+    padding: 0;
+    text-align: center;
+  }
 }
-@media (max-width: 576px) {
+@media (max-width: 992px) {
   .bottom .credit .copyright {
     padding-left: 0px;
+    padding-right: 0;
   }
 }
 .bottom .credit .copyright .cop-text {
   padding-left: 0px;
 }
-@media (max-width: 576px) {
+@media (max-width: 992px) {
   .bottom .credit .copyright .rss {
     padding-top: 10px;
     padding-left: 0px;
+    padding-right: 0;
+    margin-bottom: 10px;
   }
 }
 .bottom .credit .design {
   text-align: right;
   padding-right: 0px;
+  @media (max-width: 992px) {
+    text-align: center;
+    padding-left: 0;
+  }
 }
 .foot {
   padding-top: 0px;
-  margin-top: 30px;
 }
 .error {
   font-weight: 400;
@@ -607,10 +629,13 @@ i {
   line-height: 1.1;
   letter-spacing: normal;
   color: #ffffff;
+  @media (max-width: 940px) {
+    font-size: 32px;
+  }
 }
 @media (max-width: 500px) {
   .top-articles .top-content .top-story-img .top-story .article-header {
-    font-size: 32px;
+    font-size: 28px;
   }
 }
 .top-articles .top-content .top-story-img .top-story .article-perex {
@@ -622,6 +647,12 @@ i {
   line-height: 1.43;
   letter-spacing: normal;
   color: rgba(255, 255, 255, 0.9);
+  @media (max-width: 940px) {
+    font-size: 16px;
+  }
+  @media (max-width: 540px) {
+    display: none;
+  }
 }
 .top-articles .top-content .top-story-img .top-story .article-read-more {
   margin-top: 30px;
@@ -641,11 +672,11 @@ i {
 .top-articles .top-content .top-story-img .top-story .article-read-more span {
   margin: auto;
 }
-@media (max-width: 500px) {
+@media (max-width: 940px) {
   .top-articles .top-content .top-story-img .top-story .article-read-more {
     width: 145px;
     height: 40px;
-    margin: auto;
+
     margin-top: 30px;
   }
 }
@@ -1071,34 +1102,9 @@ i {
 }
 .games-section .games .previous-game .game-buttons {
   text-align: center;
-  margin-top: 15px;
-  margin-left: 24%;
-  margin-right: 26%;
-}
-@media (max-width: 1400px) {
-  .games-section .games .previous-game .game-buttons {
-    margin-left: 21%;
-  }
-}
-@media (max-width: 1240px) {
-  .games-section .games .previous-game .game-buttons {
-    margin-left: 19%;
-  }
-}
-@media (max-width: 992px) {
-  .games-section .games .previous-game .game-buttons {
-    margin-left: 24%;
-  }
-}
-@media (max-width: 900px) {
-  .games-section .games .previous-game .game-buttons {
-    margin-left: 25%;
-  }
-}
-@media (max-width: 768px) {
-  .games-section .games .previous-game .game-buttons {
-    margin: 0 auto;
-  }
+  margin: 0 auto;
+  justify-content: center;
+  margin-top: 24px;
 }
 
 @media (max-width: 768px) {
@@ -1120,15 +1126,12 @@ i {
   line-height: normal;
   letter-spacing: normal;
   color: #232221;
-  @media (max-width: 768px) {
-    padding-left: 16px;
-    padding-right: 16px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    display: block;
-    width: fit-content;
-    margin: 24px auto 0;
-  }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 32px;
+  margin-bottom: 12px;
 }
 .games-section .games .previous-game .game-buttons .rep-onl span a {
   color: #232221;
@@ -1147,12 +1150,12 @@ i {
 .games-section .games .next-game {
   min-height: 175px;
   background-color: #e20e18;
+  padding-bottom: 12px;
 }
 @media (max-width: 992px) {
   .games-section .games .next-game {
     width: 50%;
     margin: auto;
-    height: 220px;
   }
   .games-section .games .next-game .my-team {
     font-size: 28px;
@@ -1345,6 +1348,8 @@ i {
   letter-spacing: -0.39px;
   color: #ffffff;
   text-align: center;
+  width: 220px;
+  height: 48px;
 }
 .table-spons-section .table .table-more span {
   margin: auto;
@@ -2686,13 +2691,20 @@ main {
 }
 .tabulka-main {
   margin-top: -55px;
+  @media (max-width: 992px) {
+    margin-top: 0;
+  }
 }
 .tabulka-main .zobraz a {
   text-decoration: underline;
 }
 .tabulka-main .layout-soupiska {
-  padding-top: 123px;
+  padding-top: 80px;
+  @media (max-width: 992px) {
+    padding-top: 0px;
+  }
 }
+
 .tabulka-main .layout-soupiska .soupiska {
   background-color: #ffffff;
 }
@@ -2708,10 +2720,13 @@ main {
 .tabulka-main .layout-soupiska .soupiska .full-box .left-col {
   background-color: rgba(123, 123, 123, 0.05);
   padding-top: 79px;
+  @media (max-width: 992px) {
+    padding-top: 24px;
+  }
 }
 @media (max-width: 572px) {
   .tabulka-main .layout-soupiska .soupiska .full-box .left-col {
-    padding-top: 0px;
+    padding-top: 16px;
   }
 }
 .tabulka-main .layout-soupiska .soupiska .full-box .left-col .header {
@@ -2749,7 +2764,7 @@ main {
 @media (max-width: 578px) {
   .tabulka-main .layout-soupiska .soupiska .full-box .left-col .header-small {
     margin-top: 10px;
-    margin-left: 12%;
+    margin-left: 0%;
   }
 }
 .tabulka-main .layout-soupiska .soupiska .full-box .left-col ul {
@@ -2795,6 +2810,9 @@ main {
   padding-top: 64px;
   padding-left: 2.6%;
   padding-right: 6%;
+  @media (max-width: 992px) {
+    padding-top: 24px;
+  }
 }
 @media (max-width: 576px) {
   .tabulka-main .layout-soupiska .soupiska .full-box .main-text {
@@ -3136,6 +3154,17 @@ main {
   letter-spacing: normal;
   margin-left: -15px;
 }
+.stats-menu {
+  padding-left: 0;
+  .header-form__select {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .header-form__select::before {
+    top: 22px;
+    right: 18px;
+  }
+}
 @media (max-width: 1000px) {
   .tabulka-main .layout-soupiska .soupiska .full-box .main-text .header {
     font-size: 36px;
@@ -3152,6 +3181,7 @@ main {
   padding-bottom: 20px;
   text-align: left;
   @media (max-width: 576px) {
+    margin-bottom: 0;
   }
 }
 .tabulka-main .layout-soupiska .soupiska .full-box .main-text .control {
@@ -3178,7 +3208,6 @@ main {
   }
 }
 .tabulka-main .layout-soupiska .soupiska .full-box .main-text .season-btn {
-  width: 270px;
   font-size: 16px;
   font-weight: normal;
   font-style: normal;
@@ -3878,11 +3907,7 @@ main {
     margin-top: 0px;
   }
 }
-@media (max-width: 578px) {
-  .zobraz {
-    margin-top: -45px;
-  }
-}
+
 .zobraz .main-text {
   padding-left: 4.9%;
   padding-right: 4.9%;
@@ -4758,6 +4783,10 @@ games-owl-box .games-owl .games-box .buttons a,
   display: flex;
   align-items: center;
   justify-content: center;
+  @media (max-width: 500px) {
+    width: 180px;
+    height: 40px;
+  }
   span {
     margin: auto;
   }
@@ -4870,21 +4899,14 @@ games-owl-box .games-owl .games-box .buttons a,
     text-decoration-color: #000;
   }
 }
-
-.header-form {
-  display: flex;
-
-  flex-wrap: wrap;
-  align-items: center;
-  &__select {
-    padding: 0 16px !important;
-    padding-bottom: 20px !important;
-    position: relative;
-    @media (max-width: 998px) {
-      max-width: 100%;
-      width: 100%;
-      padding-left: 8px !important;
-    }
+.header-form__select {
+  padding: 0 16px !important;
+  padding-bottom: 20px !important;
+  position: relative;
+  @media (max-width: 998px) {
+    max-width: 100%;
+    width: 100%;
+    padding-left: 8px !important;
   }
   select {
     /* Reset Select */
@@ -4916,6 +4938,14 @@ games-owl-box .games-owl .games-box .buttons a,
       max-width: 100%;
       width: 100%;
     }
+  }
+}
+.header-form {
+  display: flex;
+
+  flex-wrap: wrap;
+  align-items: center;
+  &__select {
   }
 
   label {
@@ -4992,6 +5022,13 @@ games-owl-box .games-owl .games-box .buttons a,
   width: 14px;
   height: 14px;
   z-index: 99;
+}
+.nav-tabs.nav {
+  margin-top: 20px;
+}
+.nav-tabs li {
+  margin-bottom: 12px;
+  margin-top: 12px;
 }
 @import "bottom-banners";
 @import "hotfix";
