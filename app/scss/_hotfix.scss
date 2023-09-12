@@ -195,9 +195,9 @@ header {
   /*background: rgb(42,42,45);*/
   background: linear-gradient(
     180deg,
-    rgba(42, 42, 45, 0.7740138291644783) 0%,
-    rgba(68, 67, 68, 0.21659085997680327) 16%,
-    rgba(29, 29, 28, 1) 90%
+    rgba(42, 42, 45, 0.774014) 0%,
+    rgba(68, 67, 68, 0.216591) 16%,
+    #2a2a29 94%
   );
   height: 100%;
 }
@@ -1253,7 +1253,7 @@ ul li a.active {
 }
 @media (max-width: 600px) {
   .top-articles .more-articles .article {
-    flex: 100%;
+    flex: none;
   }
   .topstories-nav {
     .slick-track {
