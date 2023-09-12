@@ -1253,7 +1253,7 @@ ul li a.active {
 }
 @media (max-width: 600px) {
   .top-articles .more-articles .article {
-    flex: none;
+    flex: 100%;
   }
   .topstories-nav {
     .slick-track {
