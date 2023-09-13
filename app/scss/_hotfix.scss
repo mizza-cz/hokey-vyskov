@@ -60,6 +60,17 @@
 .table-spons-section .table .table-hp {
   margin-top: 30px;
 }
+.table-spons-section .spons {
+  .date {
+    display: block;
+    margin-left: 0 !important;
+    margin-top: 16px;
+    width: 100%;
+  }
+  .title {
+    width: 100%;
+  }
+}
 .menu {
   width: 100%;
   text-align: center;
@@ -271,9 +282,7 @@ header {
     width: 100%;
   }
 }
-.top-articles .more-articles .article {
-  width: auto !important;
-}
+
 .top-articles .more-articles .article.slick-current:after {
   -webkit-animation: hundredpercent 4s forwards;
   animation: hundredpercent 4s forwards;
@@ -615,15 +624,6 @@ header {
 
 .youth-news .layout .news .short-article .text {
   color: #2a2a29;
-}
-
-@media (min-width: 1100px) {
-  .spons .section-header {
-  }
-}
-@media (max-width: 1300px) and (min-width: 1000px) {
-  .spons .section-header {
-  }
 }
 
 .nadpis_foto {
